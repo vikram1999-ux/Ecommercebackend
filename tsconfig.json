@@ -1,12 +1,10 @@
 {
   "compilerOptions": {
-    "target": "ES2020",              // Keep this for modern JavaScript features
-    "module": "ESNext",              // Use ESNext for better ES module support
-    "moduleResolution": "node",      // Use "node" for module resolution
-    "esModuleInterop": true,         // Enable better interop between CommonJS and ES Modules
-    "rootDir": "src",                // Keep the root directory as "src"
-    "outDir": "dist",                // Output directory for compiled JavaScript
-    "strict": true,                  // Enable strict type-checking
-    "skipLibCheck": true             // Optional: to avoid checking type definitions in dependencies
+    "target": "ES2020",
+    "module": "NodeNext",
+    "rootDir": "src",
+    "moduleResolution": "NodeNext",
+    "outDir": "dist",
+    "strict": true
   }
 }
